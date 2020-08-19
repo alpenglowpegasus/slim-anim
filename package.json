@@ -1,0 +1,31 @@
+{
+  "name": "slim-anim",
+  "version": "1.0.0",
+  "description": "slim-anim is a small (< 100 lines of code) javascript animation library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpenglowpegasus/slim-anim.git"
+  },
+  "keywords": [
+    "slim-anim",
+    "slim",
+    "anim",
+    "animation",
+    "amimation-library",
+    "library",
+    "simple",
+    "small",
+    "leightweight",
+    "IE11"
+  ],
+  "author": "alpenglowpegasus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alpenglowpegasus/slim-anim/issues"
+  },
+  "homepage": "https://github.com/alpenglowpegasus/slim-anim#readme"
+}
