@@ -10,6 +10,9 @@ I personally only need javascript animations for transitioning height 0 -> auto,
 * No support for multiple transform values
 * Probably a bunch of other stuff I didn't notice yet
 
+## Simple demo
+[JSFiddle](https://jsfiddle.net/pz16vkfg/)
+
 
 ## Installation
 
@@ -71,6 +74,9 @@ function toggle(el) {
 // animate scroll example
 anim(document.documentElement, { scrollTop: '0px' })
 ```
+
+## Preload FPS
+This library needs to query the browser framerate once. This happens automatically at the beginning of the first animation you trigger, but causes 2 Frames of predelay. If you want to avoid that, you can call ```anim().preloadFPS()``` beforehand.
 
 ## Available easings
 ```linear, easeInQuad, easeOutQuad, easeInOutQuad, easeInCubic, easeOutCubic, easeInOutCubic, easeInQuart, easeOutQuart, easeInOutQuart, easeInQuint, easeOutQuint, easeInOutQuint```

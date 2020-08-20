@@ -1,6 +1,6 @@
 {
   "name": "slim-anim",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "slim-anim is a small (< 100 lines of code) javascript animation library",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "library",
     "simple",
     "small",
-    "leightweight",
+    "lightweight",
     "IE11"
   ],
   "author": "alpenglowpegasus",
